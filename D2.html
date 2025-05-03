@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard - Modules</title>
+
+  <link rel="stylesheet" href="styles2.css" />
+</head>
+<body>
+
+  <div class="container">
+    <aside class="sidebar">
+  <div class="logo">
+    <img src="img/logo.png" alt="Eduvista" style="width: 120px; margin: 0 auto;" />
+  </div>
+
+  <nav>
+    <a href="#"><span>📊</span> Dashboard</a>
+    <a href="#"><span>👥</span> Users</a>
+    <a href="#"><span>👪</span> Group</a>
+    <a href="#" class="active"><span>📚</span> Modules</a>
+    <a href="#"><span>📅</span> Events</a>
+    <a href="#"><span>🎓</span> Paket Belajar</a>
+    <a href="#"><span>🏷️</span> Categories</a>
+    <a href="#"><span>💳</span> Transactions</a>
+    <a href="#"><span>📞</span> Customer Relations</a>
+    <a href="#"><span>⚙️</span> Pengaturan</a>
+  </nav>
+</aside>
+
+
+    <main class="main-content">
+        <header class="topbar">
+            <div class="menu-wrapper">
+              <span class="menu-icon">&#9776;</span>
+            </div>
+            <div class="profile">
+              <button class="go-site">Go To Site</button>
+              <span>Admin Eduvista</span>
+              <img src="img/profile.png" alt="Profile" />
+            </div>
+          </header>          
+          
+
+      <section class="content">
+        <div class="header">
+          <h1>Modules</h1>
+          <button class="add-btn">+ Add New Module</button>
+        </div>
+
+        <div class="table-controls">
+          <select>
+            <option>Filter</option>
+          </select>
+          <input type="text" placeholder="Search..." />
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Instructor</th>
+              <th>Status</th>
+              <th>Created Date</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Invented Languages: Klingon and...</td>
+              <td>Ken Bosworth</td>
+              <td><span class="badge">Draft</span></td>
+              <td>October 16th 2018, 5:27:12 pm</td>
+              <td>
+                <button class="edit-btn">Edit</button>
+                <button class="delete-btn">Delete</button>
+              </td>
+            </tr>
+            <tr>
+              <td>Invented Languages: Klingon and...</td>
+              <td>Ken Bosworth</td>
+              <td><span class="badge">Draft</span></td>
+              <td>October 16th 2018, 5:27:08 pm</td>
+              <td>
+                <button class="edit-btn">Edit</button>
+                <button class="delete-btn">Delete</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="pagination">
+          <button>Previous</button>
+          <span>Page 6 of 6</span>
+          <select>
+            <option>10 rows</option>
+            <option>20 rows</option>
+            <option>30 rows</option>
+          </select>
+        </div>
+      </section>
+    </main>
+  </div>
+
+</body>
+</html>
